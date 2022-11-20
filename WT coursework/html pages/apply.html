@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/apply_style.css">
+    <link rel="shortcut icon" href="../images/header_logo.png">
+    <title>Apply Now - Inter Nation</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="staff.html" >Staff</a></li>
+                <li><a href="career.html">Career</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Apply now</h1>
+        <div class="form">
+            <form action="" id="form">
+                <input type="text" placeholder="First Name" name="first_name" id="first_name" required>
+                <input type="text" placeholder="Last Name" name="last_name" id="last_name" required> <br>
+                <input type="text" name="email" id="email" placeholder="Email" required>
+                <input type="text" name="phone" id="phone" placeholder="Phone number" required><br><br>
+                <input type="text" placeholder="City" class="input_long" name="city" id="city" required><br>
+                <input type="text" name="address" id="address" class="input_long" placeholder="Address" required><br><br>
+                <select name="vacancy" id="vacancy" class="input_long" required>
+                    <option id="choose">Choose a selected vacancy</option>
+                    <option value="">ESL Teacher</option>
+                    <option value="">Academic Support</option>
+                    <option value="">Call-Operator</option>
+                </select><br><br>
+                <textarea name="tell" id="tell" cols="1" rows="1" required>Tell us about yourself...</textarea><br><br>
+                <p>Upload your CV</p>
+                <input type="file" id="myFile"><br>
+                <div id="warning">Make sure you fill the form correctly before submitting!</div>
+                <input type="submit" value="SUBMIT" id="submit">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h2>Contacts</h2>
+        <p>Phone: +998 (78) 777-77-07</p>   
+        <p>Email: inter-nation@mail.ru</p>
+        <p>Follow us</p>
+        <img src="../images/social_media.png" alt=""><br>
+        <span>Copyright © 2022</span>
+        <script>
+            const vacancy = document.getElementById('vacancy')
+            const form = document.getElementById('form')
+            const choose = document.getElementById('choose')
+            const error = document.getElementById('warning')
+
+            form.addEventListener('submit', (e) => {
+                let message = []
+                if (vacancy.value == choose.value){
+                    message.push('Choose a vacancy!!!')
+                    error.innerText = message.join('')
+                    e.preventDefault()
+                }
+            })
+        </script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,151 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fcf7f7;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    background-color: #ffca00;
+    min-height: 4em;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    z-index: +1;
+    
+}
+header nav ul{
+    list-style: none;
+    padding-bottom: 1rem;
+    
+}
+header li{
+    display: inline;
+    padding: 2rem;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#active{
+    color: black;
+}
+header nav a:hover{
+    color: blue;
+    transition: all linear 0.5s 0s;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+main iframe{
+    margin-top: 100px;
+
+    padding-left: 50px;
+}
+.about_school_text {
+    width: 40%;
+    margin: 100px;
+    padding-left: 50px;
+}
+.about_school_text h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.about_school_text>p{
+    text-align: left;
+    color: #626061;
+    width: 80%;
+    position: relative;
+    left: 40px;
+}
+.about_school_text div{
+    display: flex;
+    flex-direction: inherit;
+    text-align: center;
+}
+.about_school_text div p{
+    padding-left: 5px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+.school_advantages{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.school_advantages>h1{
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+
+}
+.school_advantages div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+
+}
+.school_advantages div p{
+    width: 200px;
+    height: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 2px lightblue;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin: 50px;
+    font-size: 30px;
+    color: darkslategrey;
+    background-color: rgb(228, 250, 243);
+}
+.school_advantages div p:hover{
+    color: black;
+    font-size: 36px;
+    width: 240px;
+    height: 160px;
+    border: solid 5px blue;
+    transition: all linear 0.5s 0s;
+    background-color: aquamarine;
+    margin: 27px;
+}
+footer{
+    width: 100%;
+    background-color: #373435;
+    text-align: center;
+}
+footer h2{
+    color: #ffca00;
+    font-size: 2.8rem;
+    padding-top: 40px;
+}
+footer p{
+    color: #ebebeb;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+footer img{
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+}
+footer span{
+    color: #ebebeb;
+
+}
+

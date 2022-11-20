@@ -1,0 +1,130 @@
+html{
+    scroll-behavior: smooth;
+
+}
+body{
+    margin: 0px;
+    top: 0px;
+    width: 100%;
+    background-color: #fcf7f7;
+}
+header{
+    width: 100%;
+    text-align: center;
+    background-color: #ffca00;
+    margin-top: -40px;
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0rem;
+    font-size: 4rem;
+}
+
+header nav ul{
+    list-style: none;
+    padding-bottom: 1rem;
+    
+}
+header li{
+    display: inline;
+    padding: 2rem;
+}
+header nav a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+header nav a:hover{
+    color: blue;
+    transition: all linear 0.5s 0s;
+    font-weight: bold;
+}
+header img{
+    margin: 10px;
+    height: 7rem;
+    position: relative;
+    top: 40px;
+    right: 1.7rem
+}
+main{
+    text-align: center;
+    margin: 100px 50px 100px;
+}
+main h1{
+    font-size: 4rem;
+
+}
+main img{
+    width: 60%;
+    margin-bottom: 50px;
+
+}
+main hr{
+    border: 1px solid #ffca00;
+    width: 50%;
+}
+main section{
+    margin: 50px auto 50px;
+    text-align: center;
+}
+main section h2{
+    font-size: 2rem;
+}
+#form{
+    background-color: #ffca00;
+    padding: 30px;
+    width: 40%;
+    margin: 20px auto 20px;
+}
+#form input{
+    width: 60%;
+    height: 60px;
+    background-color: white;
+    font-size: 1.5rem;
+    margin: 15px auto 15px;
+}
+#form>#submit{
+    color: #ffca00;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 2rem;
+    width: 40%;
+    min-height: 30px;
+    height: 60px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    width: 100%;
+    background-color: #373435;
+    text-align: center;
+    bottom: 0px;
+}
+footer h2{
+    color: #ffca00;
+    font-size: 2.8rem;
+    padding-top: 40px;
+}
+footer p{
+    color: #ebebeb;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+footer img{
+    width: 200px;
+    height: 100px;
+    padding: 5px;
+}
+footer span{
+    color: #ebebeb;
+    
+}
+@media screen and (max-width: 6in) {
+    body{
+        background-color: red;
+    }    
+}
