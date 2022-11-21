@@ -123,8 +123,3 @@ footer span{
     color: #ebebeb;
     
 }
-@media screen and (max-width: 6in) {
-    body{
-        background-color: red;
-    }    
-}
