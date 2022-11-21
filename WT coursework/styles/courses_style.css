@@ -40,8 +40,9 @@ header nav a:hover{
 }
 main{
     margin-top: 60px;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 main section{
     width: inherit;
