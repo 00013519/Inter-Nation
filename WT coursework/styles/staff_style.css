@@ -40,8 +40,9 @@ header nav a:hover{
 }
 main{
     padding-top: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 main section{
     width: 100%;
